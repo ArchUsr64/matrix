@@ -1,5 +1,5 @@
 #![allow(unused)]
-mod matrix;
+pub mod matrix;
 mod matrix_ops;
 use crate::matrix::{Matrix, MatrixIndex, MatrixSize};
 use std::fmt::Debug;
