@@ -1,7 +1,7 @@
 #![allow(unused)]
-pub mod matrix;
+mod matrix;
 mod matrix_ops;
-use crate::matrix::{Matrix, MatrixIndex, MatrixSize};
+pub use crate::matrix::{Matrix, MatrixIndex, MatrixSize};
 use std::fmt::Debug;
 use std::ops::{Add, AddAssign, Div, DivAssign, Mul, MulAssign, Neg, Sub, SubAssign};
 

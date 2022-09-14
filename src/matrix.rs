@@ -75,7 +75,7 @@ pub struct MatrixSize {
 }
 
 #[derive(Clone)]
-pub(crate) struct Matrix {
+pub struct Matrix {
 	element_array: Vec<Vec<f32>>,
 }
 
